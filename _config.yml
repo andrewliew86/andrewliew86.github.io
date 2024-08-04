@@ -1,11 +1,10 @@
-title: John Doe # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
+title: Andrew Liew # your name (or website title) here
+logo: "/images/gitpage-profile-pic.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Experienced Data Analyst skilled in Natural language processing (NLP) techniques, large language models (LLMs), and data visualization using R and Python, with a strong foundation in biological research (former microbiologist).
   <br><br>
-  Second description 
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/andrewliew86/">View my LinkedIn profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
