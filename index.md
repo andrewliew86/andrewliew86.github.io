@@ -30,8 +30,9 @@ Adopting a pet can be a daunting experience without proper research. In this pro
 ## Selected posters presented at conferences
 
 - Wager K., Wang Y., Liew A., Campbell D., Fettig L., Liu F., Martini J-F., Ziaee N., Liu Y. Using bioinformatics and artificial intelligence (AI) to map the cyclin-dependent kinase 4/6 inhibitor (CDK4/6i) translational biomarker landscape. Poster presented at the Annual ESMO Breast Cancer Congress, Berlin, Germany, May 11–13, 2023
+
 - Banner S., Rees T., Liew A., Brown N., Dhanky V., Humphreys L., Naimy H., Peters D., Young F., Factors influencing pharmaceutical industry-affiliated clinical trial publication timelines. Poster presented at the 19th Annual Meeting of the International Society for Medical Publication Professionals (ISMPP), Washington, DC, USA, April 24–26, 2023
-- Rawlings H., Rees T., Koti L., Pal A., Liew A., Why did it go viral? An informatics-based case study of exaggerated language in news and social media. Poster presented at the European Meeting of the International Society for Medical Publication Professionals (ISMPP), London, UK, January 24–25, 2023
+
 ---
 
 
