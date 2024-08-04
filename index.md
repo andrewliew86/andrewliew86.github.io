@@ -5,7 +5,7 @@
 
 Bibliometrics often allows a researcher to quickly identify prominent, highly published authors who are likely to be leaders in the field. In this project, I use R, VOS viewer and open-source data from EuropePMC to identify these experts.  
 
-<img src="images/network_plot.png?raw=true"/>
+<img src="images/network_plot2.png?raw=true"/>
 
 [View project on GitHub](https://github.com/andrewliew86/Basic-expert-identification-profiling-app-with-R)
 
