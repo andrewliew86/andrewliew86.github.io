@@ -1,4 +1,4 @@
-## Selected data science, large language models and NLP projects
+## Selected data science, large language models and text analytics projects
 
 ---
 ### Expert profiling platform
