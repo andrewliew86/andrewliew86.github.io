@@ -10,11 +10,18 @@ Bibliometrics often allows a researcher to quickly identify prominent, highly pu
 [View project on GitHub](https://github.com/andrewliew86/Basic-expert-identification-profiling-app-with-R)
 
 ---
-### Scientific document chatbot
+### ChatGPT for scientific document
 
-Scientific papers are often long and contain technical jargon. In this proof of concept study, I utilized several open access libraries (LangChain, Hugging Face) in Python and open-weights large language models (Mistral-7B and Zephyr-7B-Beta) to create chatbots that can summarize and answer questions from an uploaded scientific PDF document.  
+Scientific papers are often long and contain technical jargon. In this proof of concept study, I utilized several open access libraries (LangChain, Hugging Face) in Python and open-weights large language models (Mistral-7B and Zephyr-7B-Beta) to create ChatGPT-like chatbots that can summarize and answer questions from an uploaded scientific PDF document.  
 
 [View project on GitHub](https://github.com/andrewliew86/Document-chatbot-with-large-language-models)
+
+---
+### Fine-tuning language models for biomedical text analysis
+
+Pre-trained language models such as BERT can often be fine-tuned on biomedical data to improve their ability to perform domain-specific tasks. In this proof of concept study, I fine-tuned a small BERT uncased model to perform text classification and extractive Q&A using the Hugging Face/transformers library in Python.  
+
+[View project on GitHub](https://github.com/andrewliew86/Deep-learning-tools-for-biomedical-text/tree/main)
 
 ---
 ### Text analysis of pet adoption websites
@@ -32,6 +39,7 @@ Adopting a pet can be a daunting experience without proper research. In this pro
 
 - Banner S., Rees T., Liew A., Brown N., Dhanky V., Humphreys L., Naimy H., Peters D., Young F., Factors influencing pharmaceutical industry-affiliated clinical trial publication timelines. Poster presented at the 19th Annual Meeting of the International Society for Medical Publication Professionals (ISMPP), Washington, DC, USA, April 24–26, 2023
 
+- Rawlings H., Rees T., Koti L., Pal A., Liew A., Why did it go viral? An informatics-based case study of exaggerated language in news and social media. Poster presented at the European Meeting of the International Society for Medical Publication Professionals (ISMPP), London, UK, January 24–25, 2023
 ---
 
 
