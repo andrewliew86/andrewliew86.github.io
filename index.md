@@ -10,7 +10,7 @@ Bibliometrics often allows a researcher to quickly identify prominent, highly pu
 [View project on GitHub](https://github.com/andrewliew86/Basic-expert-identification-profiling-app-with-R)
 
 ---
-### ChatGPT for scientific document
+### ChatGPT for scientific documents
 
 Scientific papers are often long and contain technical jargon. In this proof of concept study, I utilized several open access libraries (LangChain, Hugging Face) in Python and open-weights large language models (Mistral-7B and Zephyr-7B-Beta) to create ChatGPT-like chatbots that can summarize and answer questions from an uploaded scientific PDF document.  
 
