@@ -17,6 +17,15 @@ Scientific papers are often long and contain technical jargon. In this proof of 
 [View project on GitHub](https://github.com/andrewliew86/Document-chatbot-with-large-language-models)
 
 ---
+### Deploying a text-to-image model as a serverless endpoint
+
+Stable Diffusion 2 is a cutting-edge text-to-image model capable of generating high-quality images from textual descriptions. In this fun weekend project, I deployed Stable Diffusion 2 as a serverless endpoint on RunPod, leveraging its cloud GPU resources to handle real-time image generation. This setup enables efficient, scalable, and cost-effective deployment, making it easy to integrate AI-driven image generation into various applications.
+
+<img src="images/photo-collage-wide.png?raw=true"/>
+
+[View project on GitHub](https://github.com/andrewliew86/Text-to-image-generation-model-deployment)
+
+---
 ### Fine-tuning language models for biomedical text analysis
 
 Pre-trained language models such as BERT can often be fine-tuned on biomedical data to improve their ability to perform domain-specific tasks. In this project, I fine-tuned a small BERT uncased model to perform text classification and extractive Q&A using the Hugging Face/Transformers library in Python.  
