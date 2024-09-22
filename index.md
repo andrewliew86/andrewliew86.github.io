@@ -1,13 +1,13 @@
 ## Selected data science, large language models and text analytics projects
 
 ---
-### Expert profiling platform
+### Melbourne property price prediction API
 
-Bibliometrics often allows a researcher to quickly and quantitatively identify prominent, highly published authors who are likely to be leaders in the field. In this project, I use R, VOSviewer and open-source data from EuropePMC to identify these experts.  
+This POC project provides a Flask-based API for predicting house prices using a Random Forest regressor. The model, trained using data scraped from a real estate website, outputs predictions based on input features like building type, area, rooms, and garage availability. The app is containerized using Docker for easy deployment and scalability.
 
-<img src="images/network_plot2.png?raw=true"/>
+<img src="images/melbourne-property-collage.png?raw=true"/>
 
-[View project on GitHub](https://github.com/andrewliew86/Basic-expert-identification-profiling-app-with-R)
+[View project on GitHub](https://github.com/andrewliew86/Melbourne-property-price-prediction-model)
 
 ---
 ### Chatting with scientific documents
@@ -24,6 +24,15 @@ Stable Diffusion 2 is a cutting-edge, open source, text-to-image model capable o
 <img src="images/photo-collage-wide.png?raw=true"/>
 
 [View project on GitHub](https://github.com/andrewliew86/Text-to-image-generation-model-deployment)
+
+---
+### Expert profiling platform
+
+Bibliometrics often allows a researcher to quickly and quantitatively identify prominent, highly published authors who are likely to be leaders in the field. In this project, I use R, VOSviewer and open-source data from EuropePMC to identify these experts.  
+
+<img src="images/network_plot2.png?raw=true"/>
+
+[View project on GitHub](https://github.com/andrewliew86/Basic-expert-identification-profiling-app-with-R)
 
 ---
 ### Fine-tuning language models for biomedical text analysis
