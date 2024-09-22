@@ -26,6 +26,13 @@ Stable Diffusion 2 is a cutting-edge, open source, text-to-image model capable o
 [View project on GitHub](https://github.com/andrewliew86/Text-to-image-generation-model-deployment)
 
 ---
+### Fine-tuning language models for biomedical text analysis
+
+Pre-trained language models such as BERT can often be fine-tuned on biomedical data to improve their ability to perform domain-specific tasks. In this project, I fine-tuned a small BERT uncased model to perform text classification and extractive Q&A using the Hugging Face/Transformers library in Python.  
+
+[View project on GitHub](https://github.com/andrewliew86/Deep-learning-tools-for-biomedical-text/tree/main)
+
+---
 ### Expert profiling platform
 
 Bibliometrics often allows a researcher to quickly and quantitatively identify prominent, highly published authors who are likely to be leaders in the field. In this project, I use R, VOSviewer and open-source data from EuropePMC to identify these experts.  
@@ -33,13 +40,6 @@ Bibliometrics often allows a researcher to quickly and quantitatively identify p
 <img src="images/network_plot2.png?raw=true"/>
 
 [View project on GitHub](https://github.com/andrewliew86/Basic-expert-identification-profiling-app-with-R)
-
----
-### Fine-tuning language models for biomedical text analysis
-
-Pre-trained language models such as BERT can often be fine-tuned on biomedical data to improve their ability to perform domain-specific tasks. In this project, I fine-tuned a small BERT uncased model to perform text classification and extractive Q&A using the Hugging Face/Transformers library in Python.  
-
-[View project on GitHub](https://github.com/andrewliew86/Deep-learning-tools-for-biomedical-text/tree/main)
 
 ---
 ### Text analysis of pet adoption websites
