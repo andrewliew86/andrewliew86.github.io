@@ -10,11 +10,18 @@ This POC project provides a Flask-based API for predicting house prices using a 
 [View project on GitHub](https://github.com/andrewliew86/Melbourne-property-price-prediction-model)
 
 ---
-### Chatting with scientific documents
+### Chatting with scientific documents using large language models
 
 Scientific papers are often long and contain technical jargon. In this proof of concept project, I utilized several open access Python libraries (LangChain, Hugging Face/Transformers) and open-weights large language models (Mistral-7B and Zephyr-7B-Beta) to create ChatGPT-like chatbots that can summarize and answer questions from an uploaded scientific PDF document.  
 
 [View project on GitHub](https://github.com/andrewliew86/Document-chatbot-with-large-language-models)
+
+---
+### Fine-tuning AI models for biomedical text analysis
+
+Pre-trained language models such as BERT can often be fine-tuned on biomedical data to improve their ability to perform domain-specific tasks. In this project, I fine-tuned a small BERT uncased model to perform text classification and extractive Q&A using the Hugging Face/Transformers library in Python.  
+
+[View project on GitHub](https://github.com/andrewliew86/Deep-learning-tools-for-biomedical-text/tree/main)
 
 ---
 ### Deploying an open source text-to-image model as a serverless endpoint
@@ -24,13 +31,6 @@ Stable Diffusion 2 is a cutting-edge, open source, text-to-image model capable o
 <img src="images/photo-collage-wide.png?raw=true"/>
 
 [View project on GitHub](https://github.com/andrewliew86/Text-to-image-generation-model-deployment)
-
----
-### Fine-tuning language models for biomedical text analysis
-
-Pre-trained language models such as BERT can often be fine-tuned on biomedical data to improve their ability to perform domain-specific tasks. In this project, I fine-tuned a small BERT uncased model to perform text classification and extractive Q&A using the Hugging Face/Transformers library in Python.  
-
-[View project on GitHub](https://github.com/andrewliew86/Deep-learning-tools-for-biomedical-text/tree/main)
 
 ---
 ### Expert profiling platform
