@@ -21,6 +21,8 @@ Scientific papers are often long and contain technical jargon. In this proof of 
 
 Pre-trained language models such as BERT can often be fine-tuned on biomedical data to improve their ability to perform domain-specific tasks. In this project, I fine-tuned a small BERT uncased model to perform text classification and extractive Q&A using the Hugging Face/Transformers library in Python.  
 
+<img src="images/streamlit-image.PNG?raw=true"/>
+
 [View project on GitHub](https://github.com/andrewliew86/Deep-learning-tools-for-biomedical-text/tree/main)
 
 ---
