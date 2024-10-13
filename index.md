@@ -1,4 +1,4 @@
-## Selected data science, large language models and text analytics projects
+## Selected data science, AI and text analytics projects
 
 ---
 ### Melbourne property price prediction API
