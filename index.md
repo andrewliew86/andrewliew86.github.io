@@ -44,6 +44,15 @@ Bibliometrics often allows a researcher to quickly and quantitatively identify p
 [View project on GitHub](https://github.com/andrewliew86/Basic-expert-identification-profiling-app-with-R)
 
 ---
+### Building an R Shiny dashboard for clinical trial insights
+
+In this project, I developed an interactive R Shiny dashboard that provides insights into infection-related clinical trials. Using data from the AACT database, I restored the dataset into a PostgreSQL instance running in a Docker container and extracted relevant data via SQL queries. The dashboard allows users to quickly explore trial sponsors, phases and geographic distribution, offering a comprehensive view of the clinical trial landscape. This project showcases how to efficiently analyze large datasets and present actionable insights in a user-friendly interface.
+
+<img src="images/dashboard.PNG?raw=true"/>
+
+[View project on GitHub](https://github.com/andrewliew86/rshiny-clinical-trial-dashboard)
+
+---
 ### Text analysis of pet adoption websites
 
 Adopting a pet can be a daunting experience without proper research. The aim of this project was to determine the key themes in the description of cats that were available for adoption in Melbourne using methods such as LDA topic modelling and Scattertext in Python. I also experimented with basic machine learning models to determine factors that could influence adoption fees.
