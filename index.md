@@ -1,4 +1,4 @@
-## Selected data science, AI and text analytics projects
+## Selected data science and AI projects
 
 ---
 ### Melbourne property price prediction API
@@ -28,7 +28,7 @@ Pre-trained language models such as BERT can often be fine-tuned on biomedical d
 ---
 ### Deploying an open source text-to-image model as a serverless endpoint
 
-Stable Diffusion 2 is a cutting-edge, open source, text-to-image model capable of generating high-quality images from textual descriptions. In this fun weekend project, I deployed Stable Diffusion 2 as a serverless endpoint on RunPod (via a Docker image), leveraging its cloud GPU resources to handle real-time image generation. This setup enables efficient, scalable, and cost-effective deployment, making it easy to integrate AI-driven image generation into various applications.
+Stable Diffusion 2 is an open source, text-to-image model capable of generating high-quality images from textual descriptions. In this fun weekend project, I deployed Stable Diffusion 2 as a serverless endpoint on RunPod (via a Docker image), leveraging its cloud GPU resources to handle real-time image generation. This setup enables efficient, scalable, and cost-effective deployment, making it easy to integrate AI-driven image generation into various applications.
 
 <img src="images/photo-collage-wide.png?raw=true"/>
 
@@ -46,7 +46,7 @@ Bibliometrics often allows a researcher to quickly and quantitatively identify p
 ---
 ### Building an R Shiny dashboard for clinical trial insights
 
-In this project, I developed an interactive R Shiny dashboard that provides insights into infection-related clinical trials. Using data from the AACT database, I restored the dataset into a PostgreSQL instance running in a Docker container and extracted relevant data via SQL queries. The dashboard allows users to quickly explore trial sponsors, phases and geographic distribution, offering a comprehensive view of the clinical trial landscape. This project showcases how to efficiently analyze large datasets and present actionable insights in a user-friendly interface.
+In this project, I developed an interactive R Shiny dashboard that provides insights into infection-related clinical trials using data from the AACT (Aggregate Analysis of ClinicalTrials.gov) database. The dashboard allows users to quickly explore trial sponsors, phases and geographic distribution, offering a comprehensive view of the clinical trial landscape.
 
 <img src="images/dashboard.PNG?raw=true"/>
 
