@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Andrew Liew is a biomedical data scientist building useful machine-learning, NLP and data-visualisation tools."
+    />
+    <meta name="theme-color" content="#f5eee3" />
+    <title>Andrew Liew — Data Scientist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="cursor-orb" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="Andrew Liew, home">
+        <span class="brand-mark">AL</span>
+        <span class="brand-name">Andrew Liew</span>
+      </a>
+
+      <nav class="nav-pill" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a
+        class="button button--orange header-cta"
+        href="https://github.com/andrewliew86"
+        target="_blank"
+        rel="noreferrer"
+      >
+        GitHub
+        <span aria-hidden="true">↗</span>
+      </a>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="eyebrow reveal">
+            <span class="status-dot" aria-hidden="true"></span>
+            Biomedical data scientist · Melbourne
+          </div>
+
+          <h1 id="hero-title" class="hero-title reveal">
+            I turn
+            <span class="title-accent">scientific data</span>
+            into useful things.
+          </h1>
+
+          <p class="hero-intro reveal">
+            Former microbiologist, now building machine-learning, NLP and
+            visualisation tools that make complex evidence easier to use.
+          </p>
+
+          <div class="hero-actions reveal">
+            <a class="button button--navy" href="#projects">
+              Explore my work
+              <span aria-hidden="true">↓</span>
+            </a>
+            <a
+              class="text-link"
+              href="https://github.com/andrewliew86"
+              target="_blank"
+              rel="noreferrer"
+            >
+              github.com/andrewliew86
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-stage reveal" id="hero-stage">
+          <div class="stage-label stage-label--top">
+            <span>current mode</span>
+            <strong id="scene-mode-label">scatter plot</strong>
+          </div>
+          <canvas
+            id="avatar-canvas"
+            aria-label="Interactive 3D data scientist character"
+          ></canvas>
+          <div class="metric-card metric-card--left" aria-hidden="true">
+            <span class="metric-icon">ƒ</span>
+            <div>
+              <strong>model.fit()</strong>
+              <span>signal found</span>
+            </div>
+          </div>
+          <div class="metric-card metric-card--right" aria-hidden="true">
+            <span class="metric-value">0.94</span>
+            <span>F1 score</span>
+          </div>
+          <button
+            class="scene-button"
+            id="scene-button"
+            type="button"
+            aria-label="Change the 3D data visualisation"
+          >
+            <span aria-hidden="true">↻</span>
+            Change the data
+          </button>
+        </div>
+
+        <a class="scroll-cue" href="#about">
+          <span>Scroll to explore</span>
+          <span class="scroll-mouse" aria-hidden="true">
+            <span></span>
+          </span>
+        </a>
+      </section>
+
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker-track">
+          <span>BIOMEDICAL AI</span><i>✦</i>
+          <span>MACHINE LEARNING</span><i>✦</i>
+          <span>NLP + LLMs</span><i>✦</i>
+          <span>DATA VISUALISATION</span><i>✦</i>
+          <span>KNOWLEDGE GRAPHS</span><i>✦</i>
+          <span>BIOMEDICAL AI</span><i>✦</i>
+          <span>MACHINE LEARNING</span><i>✦</i>
+          <span>NLP + LLMs</span><i>✦</i>
+          <span>DATA VISUALISATION</span><i>✦</i>
+          <span>KNOWLEDGE GRAPHS</span><i>✦</i>
+        </div>
+      </div>
+
+      <section class="about section" id="about" aria-labelledby="about-title">
+        <div class="section-kicker reveal">
+          <span>01</span>
+          <span>About</span>
+        </div>
+
+        <div class="about-grid">
+          <div>
+            <p class="sticker sticker--cyan reveal">FROM PETRI DISHES</p>
+            <h2 id="about-title" class="section-title reveal">
+              From microbes
+              <br />
+              to <span class="underlined">models.</span>
+            </h2>
+          </div>
+
+          <div class="about-copy reveal">
+            <p class="lead">
+              I like the part of data science where a messy real-world question
+              becomes something testable, visual and genuinely helpful.
+            </p>
+            <p>
+              My background spans microbiology, medical writing and applied AI.
+              That mix helps me bridge scientific detail and practical
+              engineering—from biomedical NLP and retrieval systems to
+              experimental analysis and interactive dashboards.
+            </p>
+            <div class="skill-cloud" aria-label="Selected skills">
+              <span>Python</span>
+              <span>R</span>
+              <span>LLMs</span>
+              <span>GraphRAG</span>
+              <span>Mixed models</span>
+              <span>Docker</span>
+              <span>Azure</span>
+              <span>Data viz</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="journey reveal" aria-label="Career journey">
+          <div class="journey-line" aria-hidden="true"></div>
+          <article>
+            <span class="journey-dot"></span>
+            <p class="journey-year">FOUNDATION</p>
+            <h3>Microbiology</h3>
+            <p>Learning to ask careful questions of noisy biological systems.</p>
+          </article>
+          <article>
+            <span class="journey-dot"></span>
+            <p class="journey-year">BRIDGE</p>
+            <h3>Medical writing</h3>
+            <p>Turning technical evidence into clear stories and decisions.</p>
+          </article>
+          <article>
+            <span class="journey-dot"></span>
+            <p class="journey-year">NOW</p>
+            <h3>Data science</h3>
+            <p>Building reproducible tools where science, code and people meet.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="lab section" aria-labelledby="lab-title">
+        <div class="lab-heading">
+          <div>
+            <div class="section-kicker section-kicker--light reveal">
+              <span>02</span>
+              <span>Mini data lab</span>
+            </div>
+            <h2 id="lab-title" class="section-title section-title--light reveal">
+              Poke the data.
+              <br />
+              It won’t bite.
+            </h2>
+          </div>
+          <p class="lab-intro reveal">
+            A tiny interactive experiment: switch datasets, move the sample-size
+            slider and hover over points to see what changes.
+          </p>
+        </div>
+
+        <div class="lab-console reveal">
+          <div class="lab-controls">
+            <div class="mode-tabs" role="group" aria-label="Dataset">
+              <button class="mode-tab is-active" type="button" data-mode="cells">
+                Cell viability
+              </button>
+              <button class="mode-tab" type="button" data-mode="nlp">
+                NLP embeddings
+              </button>
+              <button class="mode-tab" type="button" data-mode="network">
+                Knowledge graph
+              </button>
+            </div>
+
+            <label class="range-control">
+              <span>Sample size <strong id="sample-value">72</strong></span>
+              <input
+                id="sample-size"
+                type="range"
+                min="24"
+                max="120"
+                value="72"
+                step="8"
+              />
+            </label>
+          </div>
+
+          <div class="chart-shell">
+            <div class="chart-meta">
+              <span id="chart-eyebrow">CRYOPRESERVATION EXPERIMENT</span>
+              <strong id="chart-title">Cooling rate vs viability</strong>
+            </div>
+            <svg
+              id="data-chart"
+              viewBox="0 0 900 480"
+              role="img"
+              aria-labelledby="chart-title chart-description"
+            >
+              <desc id="chart-description">
+                An interactive illustrative data visualisation.
+              </desc>
+              <g class="grid-lines"></g>
+              <g class="connection-lines"></g>
+              <g class="trend-line"></g>
+              <g class="data-points"></g>
+              <text class="axis-label axis-label--x" x="450" y="458">
+                Cooling rate
+              </text>
+              <text
+                class="axis-label axis-label--y"
+                x="-240"
+                y="24"
+                transform="rotate(-90)"
+              >
+                Post-thaw viability
+              </text>
+            </svg>
+            <div class="chart-tooltip" id="chart-tooltip" role="status"></div>
+          </div>
+
+          <p class="lab-note">
+            Illustrative data only — because every good scientist labels the demo.
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="projects section"
+        id="projects"
+        aria-labelledby="projects-title"
+      >
+        <div class="projects-heading">
+          <div>
+            <p class="sticker sticker--navy reveal">SELECTED</p>
+            <h2 id="projects-title" class="section-title reveal">Projects</h2>
+          </div>
+          <p class="projects-intro reveal">
+            A mix of biomedical AI, language models, visual analytics and useful
+            weekend experiments. Each card goes straight to the code.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <a
+            class="project-card project-card--property reveal"
+            href="https://github.com/andrewliew86/Melbourne-property-price-prediction-model"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div class="project-visual" aria-hidden="true">
+              <div class="mini-map">
+                <span></span><span></span><span></span><span></span>
+                <i class="map-pin">A$</i>
+              </div>
+            </div>
+            <div class="project-copy">
+              <span class="project-number">01</span>
+              <h3>Melbourne property prediction API</h3>
+              <p>Random Forest · Flask · Docker · Web scraping</p>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <a
+            class="project-card project-card--rag reveal"
+            href="https://github.com/andrewliew86/Document-chatbot-with-large-language-models"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div class="project-visual" aria-hidden="true">
+              <div class="doc-stack">
+                <span class="doc doc--back"></span>
+                <span class="doc doc--front">
+                  <i></i><i></i><i></i>
+                </span>
+                <span class="chat-bubble">Ask the paper</span>
+              </div>
+            </div>
+            <div class="project-copy">
+              <span class="project-number">02</span>
+              <h3>Chat with scientific documents</h3>
+              <p>RAG · LangChain · Hugging Face · Open LLMs</p>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <a
+            class="project-card project-card--bert reveal"
+            href="https://github.com/andrewliew86/Deep-learning-tools-for-biomedical-text"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div class="project-visual" aria-hidden="true">
+              <div class="token-grid">
+                <span>bio</span><span>med</span><span>ical</span>
+                <span>trans</span><span class="hot">former</span><span>AI</span>
+                <span>text</span><span>class</span><span>ify</span>
+              </div>
+            </div>
+            <div class="project-copy">
+              <span class="project-number">03</span>
+              <h3>Biomedical language-model fine-tuning</h3>
+              <p>BERT · Transformers · Classification · Q&amp;A</p>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <a
+            class="project-card project-card--image reveal"
+            href="https://github.com/andrewliew86/Text-to-image-generation-model-deployment"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div class="project-visual" aria-hidden="true">
+              <div class="pixel-sun"></div>
+              <div class="pixel-mountain pixel-mountain--one"></div>
+              <div class="pixel-mountain pixel-mountain--two"></div>
+              <span class="gpu-pill">GPU → API</span>
+            </div>
+            <div class="project-copy">
+              <span class="project-number">04</span>
+              <h3>Serverless text-to-image deployment</h3>
+              <p>Stable Diffusion · RunPod · Docker · Serverless</p>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <a
+            class="project-card project-card--network reveal"
+            href="https://github.com/andrewliew86/Basic-expert-identification-profiling-app-with-R"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div class="project-visual" aria-hidden="true">
+              <svg class="network-preview" viewBox="0 0 500 270">
+                <g class="network-edges">
+                  <line x1="250" y1="135" x2="90" y2="70" />
+                  <line x1="250" y1="135" x2="410" y2="64" />
+                  <line x1="250" y1="135" x2="118" y2="220" />
+                  <line x1="250" y1="135" x2="395" y2="218" />
+                  <line x1="90" y1="70" x2="118" y2="220" />
+                  <line x1="410" y1="64" x2="395" y2="218" />
+                </g>
+                <g class="network-nodes">
+                  <circle cx="250" cy="135" r="30" />
+                  <circle cx="90" cy="70" r="16" />
+                  <circle cx="410" cy="64" r="21" />
+                  <circle cx="118" cy="220" r="20" />
+                  <circle cx="395" cy="218" r="14" />
+                </g>
+              </svg>
+            </div>
+            <div class="project-copy">
+              <span class="project-number">05</span>
+              <h3>Research expert profiling</h3>
+              <p>R · Bibliometrics · Networks · Europe PMC</p>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+
+          <a
+            class="project-card project-card--trials reveal"
+            href="https://github.com/andrewliew86/rshiny-clinical-trial-dashboard"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div class="project-visual" aria-hidden="true">
+              <div class="dashboard-preview">
+                <span class="dash-sidebar"></span>
+                <span class="dash-chart dash-chart--one"></span>
+                <span class="dash-chart dash-chart--two"></span>
+                <span class="dash-stat">2,481</span>
+              </div>
+            </div>
+            <div class="project-copy">
+              <span class="project-number">06</span>
+              <h3>Clinical-trial insights dashboard</h3>
+              <p>R Shiny · PostgreSQL · AACT · Visual analytics</p>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="all-projects reveal">
+          <a
+            class="button button--outline"
+            href="https://github.com/andrewliew86?tab=repositories"
+            target="_blank"
+            rel="noreferrer"
+          >
+            See all repositories
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-orbit" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+        <p class="sticker sticker--orange reveal">LET’S CONNECT</p>
+        <h2 id="contact-title" class="contact-title reveal">
+          Have data.
+          <br />
+          Will <span>explore.</span>
+        </h2>
+        <p class="contact-copy reveal">
+          Find my code, experiments and works in progress on GitHub.
+        </p>
+        <a
+          class="button button--orange button--large reveal"
+          href="https://github.com/andrewliew86"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Visit my GitHub
+          <span aria-hidden="true">↗</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand brand--footer" href="#top">
+        <span class="brand-mark">AL</span>
+        <span class="brand-name">Andrew Liew</span>
+      </a>
+      <p>Built with curiosity, data and a small amount of Three.js.</p>
+      <p>© <span id="year"></span></p>
+    </footer>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.185.1/build/three.module.js"
+        }
+      }
+    </script>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
