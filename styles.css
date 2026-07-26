@@ -682,6 +682,23 @@ a {
   transform: rotate(202deg);
 }
 
+.hero-stage[data-scene-mode="1"] .fallback-data {
+  background: var(--orange);
+}
+
+.hero-stage[data-scene-mode="1"] .fallback-data--two {
+  background: var(--cyan);
+}
+
+.hero-stage[data-scene-mode="2"] .fallback-data {
+  border-radius: 5px;
+  background: var(--yellow);
+}
+
+.hero-stage[data-scene-mode="2"] .fallback-data--three {
+  background: var(--cyan);
+}
+
 @keyframes fallback-point {
   to {
     transform: translateY(-13px) scale(1.12);
