@@ -262,6 +262,10 @@ function updateDataMode(mode, immediate = false) {
   sceneMode = mode % 3;
   const names = ["scatter plot", "knowledge graph", "embedding space"];
   sceneModeLabel.textContent = names[sceneMode];
+  stage?.setAttribute("data-scene-mode", String(sceneMode));
+
+  if (!dataGroup || !lines) return;
+
   const positions = [];
 
   particles.forEach((particle, index) => {
