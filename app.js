@@ -320,12 +320,37 @@ function updateDataMode(mode, immediate = false) {
 function initThree() {
   if (!canvas || !stage) return;
 
-  renderer = new THREE.WebGLRenderer({
-    canvas,
-    alpha: true,
-    antialias: true,
-    powerPreference: "high-performance",
-  });
+  let hasWebGL = false;
+  try {
+    const probe = document.createElement("canvas");
+    hasWebGL = Boolean(
+      probe.getContext("webgl2", { failIfMajorPerformanceCaveat: true }) ||
+        probe.getContext("webgl", { failIfMajorPerformanceCaveat: true }),
+    );
+  } catch {
+    hasWebGL = false;
+  }
+
+  if (!hasWebGL) {
+    stage.classList.add("no-webgl");
+    canvas.hidden = true;
+    return;
+  }
+
+  try {
+    renderer = new THREE.WebGLRenderer({
+      canvas,
+      alpha: true,
+      antialias: true,
+      powerPreference: "high-performance",
+    });
+  } catch {
+    stage.classList.add("no-webgl");
+    canvas.hidden = true;
+    return;
+  }
+
+  stage.classList.add("webgl-ready");
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
   renderer.outputColorSpace = THREE.SRGBColorSpace;
 
