@@ -30,3 +30,5 @@ h1.intro{font-size:clamp(30px,3.1vw,42px);font-weight:500;line-height:1.24;lette
 .card-image img{max-height:300px}
 
 .hero.hero-simple{display:block}.hero-simple>div{max-width:760px}.hero-simple h1.intro{max-width:760px}.hero-simple .intro-description{max-width:620px}
+
+.molecule-figure{margin:0;min-width:0}.molecule-image{background:#101a19;border-radius:10px;overflow:hidden}.molecule-image img{display:block;width:100%;height:310px;object-fit:contain}.molecule-figure .hero-note{margin:12px 0 0;text-align:center}@media(max-width:760px){.molecule-image img{height:260px}}
