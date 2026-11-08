@@ -35,4 +35,4 @@ h1.intro{font-size:clamp(30px,3.1vw,42px);font-weight:500;line-height:1.24;lette
 
 /* Match the adjacent biomedical image height while preserving the full micrograph. */
 #project-microscopy .card-image{background:#000;aspect-ratio:1792/712}
-#project-microscopy .card-image img{width:100%;height:100%;max-height:none;object-fit:contain}
+#project-microscopy .card-image img{width:100%;height:100%;max-height:none;object-fit:cover;object-position:center}
