@@ -37,29 +37,28 @@ h1.intro{font-size:clamp(30px,3.1vw,42px);font-weight:500;line-height:1.24;lette
 #project-microscopy .card-image{background:#000;aspect-ratio:1792/712}
 #project-microscopy .card-image img{width:100%;height:100%;max-height:none;object-fit:cover;object-position:center}
 
-.hero.hero-network {
-  grid-template-columns: minmax(0, 1fr);
-  gap: 28px;
-}
-.network-figure {
-  width: 100%;
-  max-width: 1000px;
+
+.molecule-figure {
   min-width: 0;
   margin: 0;
 }
-.network-figure figcaption {
-  margin-bottom: 12px;
-  font-weight: 600;
+.molecule-image {
+  overflow: hidden;
+  border-radius: 10px;
+  background: #101a19;
 }
-.network-figure iframe {
+.molecule-image img {
   display: block;
   width: 100%;
-  height: clamp(500px, 58vw, 650px);
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  background: #fff;
+  height: 310px;
+  object-fit: contain;
 }
-.network-figure .text-link {
-  display: inline-block;
-  margin-top: 12px;
+.molecule-figure .hero-note {
+  margin: 12px 0 0;
+  text-align: center;
+}
+@media (max-width: 760px) {
+  .molecule-image img {
+    height: 260px;
+  }
 }
