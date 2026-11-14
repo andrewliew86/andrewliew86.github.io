@@ -43,6 +43,8 @@ h1.intro{font-size:clamp(30px,3.1vw,42px);font-weight:500;line-height:1.24;lette
   margin: 0;
 }
 .molecule-image {
+  width: min(100%, 419px);
+  margin-inline: auto;
   overflow: hidden;
   border-radius: 10px;
   background: #101a19;
@@ -50,15 +52,14 @@ h1.intro{font-size:clamp(30px,3.1vw,42px);font-weight:500;line-height:1.24;lette
 .molecule-image img {
   display: block;
   width: 100%;
-  height: 310px;
-  object-fit: contain;
+  height: auto;
 }
 .molecule-figure .hero-note {
   margin: 12px 0 0;
   text-align: center;
 }
 @media (max-width: 760px) {
-  .molecule-image img {
-    height: 260px;
+  .molecule-image {
+    width: min(100%, 352px);
   }
 }
