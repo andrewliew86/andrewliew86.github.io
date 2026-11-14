@@ -47,18 +47,18 @@ h1.intro{font-size:clamp(30px,3.1vw,42px);font-weight:500;line-height:1.24;lette
   border-radius: 10px;
   background: #101a19;
 }
-.molecule-image img {
+.molecule-image iframe {
   display: block;
   width: 100%;
   height: 310px;
-  object-fit: contain;
+  border: 0;
 }
 .molecule-figure .hero-note {
   margin: 12px 0 0;
   text-align: center;
 }
 @media (max-width: 760px) {
-  .molecule-image img {
+  .molecule-image iframe {
     height: 260px;
   }
 }
